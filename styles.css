@@ -42,7 +42,7 @@ button:hover{
   box-sizing: border-box;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
   .navbar {
     justify-content: space-between;
     padding: 0 0 0 16px;
@@ -67,7 +67,7 @@ body.open .navbar-overlay {
   opacity: 1;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
   .navbar-overlay {
     display: none;
   }
@@ -84,7 +84,7 @@ body.open .navbar-overlay {
   padding: 0;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
   .navbar-burger {
     display: none;
   }
@@ -120,7 +120,7 @@ body.open .navbar-menu {
   visibility: visible;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
   .navbar-menu {
     position: static;
     translate: 0 0;
@@ -188,3 +188,26 @@ section img:hover{
   opacity: 1;
   filter: contrast(120%);
 }
+ .mapa{
+  width: 100%;
+  border-radius: 20px;
+ }
+ 
+ .pie{
+  display: block;
+  position:relative;
+  background-color: #ffffff63;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: auto;
+  margin: 30px;
+ }
+
+ .pie p{
+  color: #000000;
+  letter-spacing: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  font-weight:bolder;
+ }
